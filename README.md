@@ -505,6 +505,8 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [psutil](https://github.com/giampaolo/psutil) - A cross-platform process and system utilities module.
 * Backup
     * [BorgBackup](https://www.borgbackup.org/) - A deduplicating archiver with compression and encryption.
+* Chaos Engineering
+    * [Chaos Toolkit](https://chaostoolkit.org/) - Chaos Engineering toolkit for developers.
 * Others
     * [docker-compose](https://docs.docker.com/compose/) - Fast, isolated development environments using [Docker](https://www.docker.com/).
 

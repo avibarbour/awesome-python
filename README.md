@@ -138,6 +138,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 
 * [daphne](https://github.com/django/daphne) - A HTTP, HTTP2 and WebSocket protocol server for ASGI and ASGI-HTTP.
 * [uvicorn](https://github.com/encode/uvicorn) - A lightning-fast ASGI server implementation, using uvloop and httptools.
+* [hypercorn](https://github.com/pgjones/hypercorn/) - Hypercorn is an ASGI and WSGI Server based on Hyper libraries and inspired by Gunicorn.
 
 ## Asynchronous Programming
 

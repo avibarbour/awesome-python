@@ -42,6 +42,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     - [Email](#email)
     - [Enterprise Application Integrations](#enterprise-application-integrations)
     - [Environment Management](#environment-management)
+    - [Event aggregators, CQRS](#event-aggregators-cqrs)
     - [Files](#files)
     - [Foreign Function Interface](#foreign-function-interface)
     - [Forms](#forms)
@@ -613,6 +614,12 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 
 * [pyenv](https://github.com/pyenv/pyenv) - Simple Python version management.
 * [virtualenv](https://github.com/pypa/virtualenv) - A tool to create isolated Python environments.
+
+## Event aggregators CQRS
+
+*Event aggregators, mediatos, event bus.*
+
+* [mediatr](https://github.com/megafetis/mediatr_py) - implementation of mediator pattern with pipline behaviors. Supports async handlers and behaviors
 
 ## Files
 

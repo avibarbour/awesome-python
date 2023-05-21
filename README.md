@@ -376,6 +376,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [Schematics](https://github.com/schematics/schematics) - Data Structure Validation.
 * [valideer](https://github.com/podio/valideer) - Lightweight extensible data validation and adaptation library.
 * [voluptuous](https://github.com/alecthomas/voluptuous) - A Python data validation library.
+* [pydantic](https://github.com/samuelcolvin/pydantic/) - Data parsing and validation using Python type hints
 
 ## Data Visualization
 
@@ -395,6 +396,8 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [PyQtGraph](http://www.pyqtgraph.org/) - Interactive and realtime 2D/3D/Image plotting and science/engineering widgets.
 * [Seaborn](https://github.com/mwaskom/seaborn) - Statistical data visualization using Matplotlib.
 * [VisPy](https://github.com/vispy/vispy) - High-performance scientific visualization based on OpenGL.
+* [Datapane](https://datapane.com/) - A collection of APIs to turn scripts and notebooks into interactive reports.
+
 
 ## Database
 

@@ -296,7 +296,10 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [percol](https://github.com/mooz/percol) - Adds flavor of interactive selection to the traditional pipe concept on UNIX.
     * [thefuck](https://github.com/nvbn/thefuck) - Correcting your previous console command.
     * [tmuxp](https://github.com/tony/tmuxp) - A [tmux](https://github.com/tmux/tmux) session manager.
+    * [try](https://github.com/timofurrer/try) - A dead simple CLI to try out python packages - it's never been easier
+    * [libreselery](https://github.com/protontypes/libreselery) - Distribution of Funding to your project contributors and dependencies.
     * [try](https://github.com/timofurrer/try) - A dead simple CLI to try out python packages - it's never been easier.
+    
 * CLI Enhancements
     * [httpie](https://github.com/jakubroztocil/httpie) - A command line HTTP client, a user-friendly cURL replacement.
     * [iredis](https://github.com/laixintao/iredis) - Redis CLI with autocompletion and syntax highlighting.

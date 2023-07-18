@@ -1341,6 +1341,7 @@ Where to discover learning resources or new Python libraries.
     * [Python ZEEF](https://python.zeef.com/alan.richmond)
     * [Pythonic News](https://news.python.sc/)
     * [What the f*ck Python!](https://github.com/satwikkansal/wtfpython)
+    * [Explore Python](https://kandi.openweaver.com/explore/python)
 
 ## Newsletters
 

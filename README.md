@@ -251,6 +251,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [pylama](https://github.com/klen/pylama) - A code audit tool for Python and JavaScript.
     * [pylint](https://www.pylint.org/) - A fully customizable source code analyzer.
     * [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) - The strictest and most opinionated python linter ever.
+    * [pycodestyle](https://pep8.readthedocs.io/en/latest/index.html) - A tool(formerly known as pep8) to check Python code against PEP8 style conventions.
 * Code Formatters
     * [black](https://github.com/python/black) - The uncompromising Python code formatter.
     * [isort](https://github.com/timothycrosley/isort) - A Python utility / library to sort imports.

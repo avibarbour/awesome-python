@@ -287,6 +287,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 *Useful CLI-based tools for productivity.*
 
 * Productivity Tools
+    * [cambd](https://github.com/rocktimsaikia/cambd) - Cambridge dictionary cli app.
     * [copier](https://github.com/pykong/copier) - A library and command-line utility for rendering projects templates.
     * [cookiecutter](https://github.com/audreyr/cookiecutter) - A command-line utility that creates projects from cookiecutters (project templates).
     * [doitlive](https://github.com/sloria/doitlive) - A tool for live presentations in the terminal.

@@ -460,7 +460,8 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [pyringe](https://github.com/google/pyringe) - Debugger capable of attaching to and injecting code into Python processes.
     * [python-hunter](https://github.com/ionelmc/python-hunter) - A flexible code tracing toolkit.
 * Profiler
-    * [line_profiler](https://github.com/rkern/line_profiler) - Line-by-line profiling.
+    * [
+    ](https://github.com/pyutils/line_profiler) - Line-by-line profiling.
     * [memory_profiler](https://github.com/fabianp/memory_profiler) - Monitor Memory usage of Python code.
     * [py-spy](https://github.com/benfred/py-spy) - A sampling profiler for Python programs. Written in Rust.
     * [pyflame](https://github.com/uber/pyflame) - A ptracing profiler For Python.

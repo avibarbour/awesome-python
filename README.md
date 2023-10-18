@@ -25,8 +25,9 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     - [Configuration](#configuration)
     - [Cryptography](#cryptography)
     - [Data Analysis](#data-analysis)
-    - [Data Validation](#data-validation)
-    - [Data Visualization](#data-visualization)
+      - [Core structures and frameworks](#Core-structures-and-frameworks)
+      - [Data Validation](#data-validation)
+      - [Data Visualization](#data-visualization)
     - [Database Drivers](#database-drivers)
     - [Database](#database)
     - [Date and Time](#date-and-time)
@@ -47,7 +48,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     - [Forms](#forms)
     - [Functional Programming](#functional-programming)
     - [Game Development](#game-development)
-    - [Geolocation](#geolocation)
+    - [Geospatial data processing](#geospatial-data-processing)
     - [GUI Development](#gui-development)
     - [Hardware](#hardware)
     - [HTML Manipulation](#html-manipulation)
@@ -356,16 +357,27 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 
 ## Data Analysis
 
-*Libraries for data analyzing.*
+*Libraries for data analysis.*
+
+### Core structures and frameworks
+
+*Libraries that provide data structures and algorithms for data analysis.*
 
 * [AWS Data Wrangler](https://github.com/awslabs/aws-data-wrangler) - Pandas on AWS.
 * [Blaze](https://github.com/blaze/blaze) - NumPy and Pandas interface to Big Data.
+* [Modin](https://modin.readthedocs.io/en/stable/) - A Pandas-like wrapper on top of Dask and Ray.
 * [Open Mining](https://github.com/mining/mining) - Business Intelligence (BI) in Pandas interface.
 * [Optimus](https://github.com/ironmussa/Optimus) - Agile Data Science Workflows made easy with PySpark.
 * [Orange](https://orange.biolab.si/) - Data mining, data visualization, analysis and machine learning through visual programming or scripts.
 * [Pandas](http://pandas.pydata.org/) - A library providing high-performance, easy-to-use data structures and data analysis tools.
+* [Polars](https://github.com/pola-rs/polars) - Fast, multi-threaded dataframes built in Python and Rust.
+* [PyArrow](https://arrow.apache.org/docs/python/) - A Python wrapper for the the Apache Arrow in-memory analytics platform.
+* [Ray](https://github.com/ray-project/ray/) - A system for parallel and distributed Python that unifies the machine learning ecosystem.
+* [RAPIDS](https://rapids.ai/) - A suite of open source libraries for running data science and analytics pipelines on GPUs.
+* [Vaex](https://github.com/vaexio/vaex) - Hybrid Arrow-NumPy dataframes for big tabular datasets.
+* [xarray](https://xarray.pydata.org/en/stable/index.html) - A generalization of Pandas into n-dimensional data.
 
-## Data Validation
+### Data Validation
 
 *Libraries for validating data. Used for forms in many cases.*
 
@@ -377,23 +389,31 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [valideer](https://github.com/podio/valideer) - Lightweight extensible data validation and adaptation library.
 * [voluptuous](https://github.com/alecthomas/voluptuous) - A Python data validation library.
 
-## Data Visualization
+### Data Visualization
 
 *Libraries for visualizing data. Also see [awesome-javascript](https://github.com/sorrycc/awesome-javascript#data-visualization).*
 
 * [Altair](https://github.com/altair-viz/altair) - Declarative statistical visualization library for Python.
+* [bamboolib](https://bamboolib.8080labs.com/) - An interface for interactive transformation and visualization of dataframes.
 * [Bokeh](https://github.com/bokeh/bokeh) - Interactive Web Plotting for Python.
 * [bqplot](https://github.com/bloomberg/bqplot) - Interactive Plotting Library for the Jupyter Notebook.
-* [Cartopy](https://github.com/SciTools/cartopy) - A cartographic python library with matplotlib support.
+* [D-Tale](https://github.com/man-group/dtale#charts) - A Pandas DataFrame visualizer.
 * [Dash](https://plot.ly/products/dash/) - Built on top of Flask, React and Plotly aimed at analytical web applications.
     * [awesome-dash](https://github.com/Acrotrend/awesome-dash)
+* [DataPrep](https://dataprep.ai/) - A framework for data wrangling and exploratory data analysis.
 * [diagrams](https://github.com/mingrammer/diagrams) - Diagram as Code.
+* [Folium](https://python-visualization.github.io/folium/) - Geographic visualization tool using leaflet.js.
+* [Glue](https://glueviz.org/) - Multi-dimensional linked-data exploration.
+* [HoloViz](https://holoviz.org/) - A set of high-level tools for simplifying visualization in Python.
+* [Lux](https://github.com/lux-org/lux) - An API for exploratory data analysis.
 * [Matplotlib](http://matplotlib.org/) - A Python 2D plotting library.
+* [Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling) - Generates profile reports from a pandas DataFrame.
 * [plotnine](https://github.com/has2k1/plotnine) - A grammar of graphics for Python based on ggplot2.
 * [Pygal](http://www.pygal.org/en/latest/) - A Python SVG Charts Creator.
 * [PyGraphviz](https://pypi.org/project/pygraphviz/) - Python interface to [Graphviz](http://www.graphviz.org/).
 * [PyQtGraph](http://www.pyqtgraph.org/) - Interactive and realtime 2D/3D/Image plotting and science/engineering widgets.
 * [Seaborn](https://github.com/mwaskom/seaborn) - Statistical data visualization using Matplotlib.
+* [Sweetviz](https://github.com/fbdesignpro/sweetviz) - Open-source library for exploratory data analysis.
 * [VisPy](https://github.com/vispy/vispy) - High-performance scientific visualization based on OpenGL.
 
 ## Database
@@ -514,7 +534,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 *Frameworks and libraries for Distributed Computing.*
 
 * Batch Processing
-    * [dask](https://github.com/dask/dask) - A flexible parallel computing library for analytic computing.
+    * [dask](https://github.com/dask/dask) - A flexible parallel computing library for analytic computing, part of the Blaze ecosystem.
     * [luigi](https://github.com/spotify/luigi) - A module that helps you build complex pipelines of batch jobs.
     * [mrjob](https://github.com/Yelp/mrjob) - Run MapReduce jobs on Hadoop or Amazon Web Services.
     * [PySpark](https://pypi.org/project/pyspark/) - [Apache Spark](https://spark.apache.org/) Python API.
@@ -704,14 +724,16 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [PySDL2](https://pysdl2.readthedocs.io) - A ctypes based wrapper for the SDL2 library.
 * [RenPy](https://www.renpy.org/) - A Visual Novel engine.
 
-## Geolocation
+## Geospatial data processing
 
 *Libraries for geocoding addresses and working with latitudes and longitudes.*
 
+* [Cartopy](https://github.com/SciTools/cartopy) - A cartographic python library with matplotlib support.
 * [django-countries](https://github.com/SmileyChris/django-countries) - A Django app that provides a country field for models and forms.
 * [GeoDjango](https://docs.djangoproject.com/en/dev/ref/contrib/gis/) - A world-class geographic web framework.
 * [GeoIP](https://github.com/maxmind/geoip-api-python) - Python API for MaxMind GeoIP Legacy Database.
 * [geojson](https://github.com/frewsxcv/python-geojson) - Python bindings and utilities for GeoJSON.
+* [GeoPandas](https://github.com/geopandas/geopandas) - Python tools for geographic data.
 * [geopy](https://github.com/geopy/geopy) - Python Geocoding Toolbox.
 
 ## HTML Manipulation
@@ -758,6 +780,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 
 * [hmap](https://github.com/rossgoodwin/hmap) - Image histogram remapping.
 * [imgSeek](https://sourceforge.net/projects/imgseek/) - A project for searching a collection of images using visual similarity.
+* [napari](https://napari.org/) - A fast, interactive, multi-dimensional image viewer for Python.
 * [nude.py](https://github.com/hhatto/nude.py) - Nudity detection.
 * [pagan](https://github.com/daboth/pagan) - Retro identicon (Avatar) generation based on input string and hash.
 * [pillow](https://github.com/python-pillow/Pillow) - Pillow is the friendly [PIL](http://www.pythonware.com/products/pil/) fork.
@@ -839,12 +862,13 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [gym](https://github.com/openai/gym) - A toolkit for developing and comparing reinforcement learning algorithms.
 * [H2O](https://github.com/h2oai/h2o-3) - Open Source Fast Scalable Machine Learning Platform.
 * [Metrics](https://github.com/benhamner/Metrics) - Machine learning evaluation metrics.
+* [MindsDB](https://github.com/mindsdb/mindsdb) - MindsDB is an open source AI layer for existing databases that allows you to effortlessly develop, train and deploy state-of-the-art machine learning models using standard queries.
 * [NuPIC](https://github.com/numenta/nupic) - Numenta Platform for Intelligent Computing.
 * [scikit-learn](http://scikit-learn.org/) - The most popular Python library for Machine Learning.
 * [Spark ML](http://spark.apache.org/docs/latest/ml-guide.html) - [Apache Spark](http://spark.apache.org/)'s scalable Machine Learning library.
+* [Turi Create](https://github.com/apple/turicreate) - Simplified machine learning toolkit.
 * [vowpal_porpoise](https://github.com/josephreisinger/vowpal_porpoise) - A lightweight Python wrapper for [Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit/).
 * [xgboost](https://github.com/dmlc/xgboost) - A scalable, portable, and distributed gradient boosting library.
-* [MindsDB](https://github.com/mindsdb/mindsdb) - MindsDB is an open source AI layer for existing databases that allows you to effortlessly develop, train and deploy state-of-the-art machine learning models using standard queries.
 
 ## Microsoft Windows
 
@@ -881,6 +905,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [PyTorch-NLP](https://github.com/PetrochukM/PyTorch-NLP) - A toolkit enabling rapid deep learning NLP prototyping for research.
     * [spacy](https://spacy.io/) - A library for industrial-strength natural language processing in Python and Cython.
     * [Stanza](https://github.com/stanfordnlp/stanza) - The Stanford NLP Group's official Python library, supporting 60+ languages.
+    * [TextBlob](https://textblob.readthedocs.io/en/dev/) - A simple API for common NLP tasks built on top of NLTK and Pattern.
 - Chinese
     * [funNLP](https://github.com/fighting41love/funNLP) - A collection of tools and datasets for Chinese NLP.
     * [jieba](https://github.com/fxsjy/jieba) - The most popular Chinese text segmentation library.

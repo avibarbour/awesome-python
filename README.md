@@ -789,6 +789,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [PyPy](https://foss.heptapod.net/pypy/pypy) - A very fast and compliant implementation of the Python language.
 * [Pyston](https://github.com/pyston/pyston/) - A Python implementation using JIT techniques.
 * [Stackless Python](https://github.com/stackless-dev/stackless) - An enhanced version of the Python programming language.
+* [PikaPython](https://github.com/pikastech/pikapython) - Python runs with only 4KB of RAM, zero dependencies, easy to bind with C.
 
 ## Interactive Interpreter
 
